@@ -1,0 +1,9 @@
+.chatbox {
+    width: 100%;
+    maxHeight: 85vh;
+    height: 100%;
+    overflow: scroll;
+    background: #eff6ff;
+    padding: 0;
+    margin: 0;
+}
