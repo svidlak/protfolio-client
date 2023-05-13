@@ -6,7 +6,7 @@ import Content from "../components/Layout/Content";
 
 const Index: React.FC = () => {
     return (
-        <Layout style={{ minHeight: '100vh' }}>
+        <Layout className="layout" style={{ minHeight: '100vh' }}>
             <Sidebar />
             <Layout className="site-layout">
                 <Content />

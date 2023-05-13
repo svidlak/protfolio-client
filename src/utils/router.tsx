@@ -4,7 +4,7 @@ import {
 } from '@ant-design/icons';
 import About from "../pages/About";
 import Index from "../pages/Index";
-import Draw from "../pages/Draw";
+import Users from "../pages/Users";
 
 const childRoutes = [
     {
@@ -15,11 +15,11 @@ const childRoutes = [
         link: ''
     },
     {
-        path: '/draw',
-        element: <Draw/>,
+        path: '/users',
+        element: <Users/>,
         icon: <PieChartOutlined />,
-        label: 'Collad Draw',
-        link: '/draw'
+        label: 'Users Example',
+        link: '/users'
     },
     {
         path: "*",
